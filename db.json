@@ -1,0 +1,365 @@
+{
+    "user": [
+      {
+        "id": 1,
+        "firstName": "Admin",
+        "lastName": "Admin",
+        "email": "admin@gmail.com",
+        "password": 123,
+        "booking": false,
+        "member": false,
+        "login": false
+      },
+  
+      {
+        "id": 4,
+        "firstName": "Alice",
+        "lastName": "Johnson",
+        "email": "alice.johnson@example.com",
+        "password": "abc123",
+        "booking": false,
+        "member": false,
+        "login": false
+      },
+      {
+        "id": 5,
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "email": "bob.smith@example.com",
+        "password": "password123",
+        "booking": false,
+        "member": false,
+        "login": false
+      },
+      {
+        "id": 6,
+        "firstName": "Carol",
+        "lastName": "Williams",
+        "email": "carol.williams@example.com",
+        "password": "qwerty",
+        "booking": false,
+        "member": false,
+        "login": false
+      },
+      {
+        "id": 7,
+        "firstName": "David",
+        "lastName": "Brown",
+        "email": "david.brown@example.com",
+        "password": "hello123",
+        "booking": false,
+        "member": false,
+        "login": false
+      },
+      {
+        "id": 8,
+        "firstName": "Ella",
+        "lastName": "Davis",
+        "email": "ella.davis@example.com",
+        "password": "ilovecoding",
+        "booking": false,
+        "member": false,
+        "login": false
+      },
+      {
+        "id": 9,
+        "firstName": "Frank",
+        "lastName": "Jones",
+        "email": "frank.jones@example.com",
+        "password": "pass1234",
+        "booking": false,
+        "member": false,
+        "login": false
+      },
+      {
+        "id": 10,
+        "firstName": "Grace",
+        "lastName": "Miller",
+        "email": "grace.miller@example.com",
+        "password": "p@ssw0rd",
+        "booking": false,
+        "member": false,
+        "login": false
+      },
+      {
+        "id": 11,
+        "firstName": "Henry",
+        "lastName": "Martinez",
+        "email": "henry.martinez@example.com",
+        "password": "secure123",
+        "booking": false,
+        "member": false,
+        "login": false
+      }
+    ],
+    "trainers": [
+      {
+        "id": 1,
+        "image": "https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg",
+        "name": "Aarav Sharma",
+        "specialty": "Gym Trainer",
+        "achievement": "Fitness advocate",
+        "experience": "14 years",
+        "availability": {
+          "Monday": "08:30 AM - 04:30 PM",
+          "Wednesday": "09:30 AM - 05:30 PM",
+          "Friday": "10:00 AM - 02:00 PM"
+        }
+      },
+      {
+        "id": 2,
+        "image": "https://media.istockphoto.com/id/700713636/photo/professional-yoga-trainer-supporting-woman-in-health-club.jpg?s=612x612&w=0&k=20&c=z3udL2hyir9jdL7Edm1__gtVoqsmo6J-jo1aT5_prbw=",
+        "name": "Aanya Patel",
+        "specialty": "Yoga Trainer",
+        "achievement": "Mind-body wellness",
+        "experience": "11 years",
+        "availability": {
+          "Tuesday": "10:00 AM - 06:00 PM",
+          "Thursday": "09:00 AM - 05:00 PM",
+          "Saturday": "08:00 AM - 04:00 PM"
+        }
+      },
+      {
+        "id": 3,
+        "image": "https://www.lifefitness.com/resource/blob/1343670/00302b62aa1082bd946f8dc82a982aa7/r-series-3-runners-on-treads-1857-data.jpg",
+        "name": "Riya Reddy",
+        "specialty": "Cardio Trainer",
+        "achievement": "Women's health advocate",
+        "experience": "12 years",
+        "availability": {
+          "Monday": "09:00 AM - 05:00 PM",
+          "Wednesday": "10:00 AM - 06:00 PM",
+          "Friday": "08:00 AM - 04:00 PM"
+        }
+      },
+      {
+        "id": 4,
+        "image": "https://img.freepik.com/premium-photo/group-young-happy-active-people-looking-yoga-instructor-while-repeating-one-exercises-during-workout_274679-2077.jpg",
+        "name": "Advait Kumar",
+        "specialty": "Yoga Trainer",
+        "achievement": "Mind-body wellness",
+        "experience": "16 years",
+        "availability": {
+          "Tuesday": "08:30 AM - 04:30 PM",
+          "Thursday": "09:30 AM - 05:30 PM",
+          "Saturday": "10:00 AM - 02:00 PM"
+        }
+      },
+      {
+        "id": 5,
+        "image": "https://media.istockphoto.com/id/1290528928/photo/the-pros-in-programme-planning.jpg?s=612x612&w=0&k=20&c=FT_xeQNbCv7jDKBf2iaP7lgxNMR2NspQ7OgDsSLoWKs=",
+        "name": "Ananya Desai",
+        "specialty": "Fitness Nutritionist",
+        "achievement": "Nutrition expertise",
+        "experience": "13 years",
+        "availability": {
+          "Monday": "10:00 AM - 06:00 PM",
+          "Wednesday": "11:00 AM - 07:00 PM",
+          "Friday": "09:00 AM - 03:00 PM"
+        }
+      },
+      {
+        "id": 6,
+        "image": "https://media.istockphoto.com/id/815122864/photo/male-coach-adjusting-posture-of-female-dancer.jpg?s=612x612&w=0&k=20&c=5tz_o96jbY-Zl5D97VJa2t7cocQKXO2hgWF816CVqZs=",
+        "name": "Vivaan Gupta",
+        "specialty": "Dance Trainer",
+        "achievement": "Strength and conditioning expert",
+        "experience": "15 years",
+        "availability": {
+          "Tuesday": "09:00 AM - 05:00 PM",
+          "Thursday": "10:00 AM - 06:00 PM",
+          "Saturday": "09:00 AM - 01:00 PM"
+        }
+      },
+      {
+        "id": 7,
+        "image": "https://media.istockphoto.com/id/1204577442/photo/low-angle-view-of-handsome-trainer-performing-zumba-with-multicultural-dancers-in-studio.jpg?s=612x612&w=0&k=20&c=ALBWRBYnLIz3tl-rnSzk9Yw8h2IgoSon21UaOZRo8ow=",
+        "name": "Aadhy Iyer",
+        "specialty": "Zumba Trainer",
+        "achievement": "Performance enhancement",
+        "experience": "10 years",
+        "availability": {
+          "Monday": "08:30 AM - 04:30 PM",
+          "Wednesday": "09:30 AM - 05:30 PM",
+          "Friday": "10:00 AM - 02:00 PM"
+        }
+      },
+      {
+        "id": 8,
+        "image": "https://media.istockphoto.com/id/670724074/photo/exercising-at-the-gym.jpg?s=612x612&w=0&k=20&c=jr9YMXFCD2ON4QsU9-ZdVSUd7tdR4vhx0TXaysfasTc=",
+        "name": "Sia Malhotra",
+        "specialty": "Dance Trainer",
+        "achievement": "Psychological well-being",
+        "experience": "11 years",
+        "availability": {
+          "Tuesday": "10:00 AM - 06:00 PM",
+          "Thursday": "09:00 AM - 05:00 PM",
+          "Saturday": "08:00 AM - 04:00 PM"
+        }
+      },
+      {
+        "id": 9,
+        "image": "https://5.imimg.com/data5/SELLER/Default/2023/2/IL/XG/QL/10426491/zumba-classes-fitness-services.jpg",
+        "name": "Ishita Choudhury",
+        "specialty": "Zumba Trainer",
+        "achievement": "Zumba fitness specialist",
+        "experience": "12 years",
+        "availability": {
+          "Monday": "09:00 AM - 05:00 PM",
+          "Wednesday": "10:00 AM - 06:00 PM",
+          "Friday": "08:00 AM - 04:00 PM"
+        }
+      },
+      {
+        "id": 10,
+        "image": "https://media.istockphoto.com/id/675179390/photo/muscular-trainer-writing-on-clipboard.jpg?s=612x612&w=0&k=20&c=9NKx1AwVMpPY0YBlk5H-hxx2vJSCu1Wc78BKRM9wFq0=",
+        "name": "Krish Patel",
+        "specialty": "Cardio Trainer",
+        "achievement": "Functional fitness expert",
+        "experience": "13 years",
+        "availability": {
+          "Tuesday": "08:30 AM - 04:30 PM",
+          "Thursday": "09:30 AM - 05:30 PM",
+          "Saturday": "10:00 AM - 02:00 PM"
+        }
+      },
+      {
+        "id": 11,
+        "image": "https://www.afpafitness.com/wp-content/uploads/2023/05/shutterstock_327778547-2.jpg",
+        "name": "Sahil Kapoor",
+        "specialty": "Fitness Nutritionist",
+        "achievement": "Core strength training",
+        "experience": "11 years",
+        "availability": {
+          "Tuesday": "10:00 AM - 06:00 PM",
+          "Thursday": "09:00 AM - 05:00 PM",
+          "Saturday": "08:00 AM - 04:00 PM"
+        }
+      },
+      {
+        "id": 12,
+        "image": "https://w0.peakpx.com/wallpaper/843/333/HD-wallpaper-workout-gym-fitness-personal-trainer-sports-exercises-exercises-with-dumbbells-personal-training-concepts.jpg",
+        "name": "Aarushi Khanna",
+        "specialty": "Gym Trainer",
+        "achievement": "Self-defense and discipline",
+        "experience": "12 years",
+        "availability": {
+          "Monday": "09:00 AM - 05:00 PM",
+          "Wednesday": "10:00 AM - 06:00 PM",
+          "Friday": "08:00 AM - 04:00 PM"
+        }
+      }
+    ],
+    "contact":[
+      {
+        "id": 1,
+        "firstName": "Henry",
+        "lastName": "Martinez",
+        "email": "henry.martinez@example.com",
+        "message": "haskdfu9 shadfkis fks fihsidfi sdhf ifhsohgfhisdhfhji fkyhofsudf s"
+      },
+      {
+        "id": 2,
+        "firstName": "Alice",
+        "lastName": "Johnson",
+        "email": "alice.johnson@example.com",
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "id": 3,
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "email": "bob.smith@example.com",
+        "message": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      },
+      {
+        "id": 4,
+        "firstName": "Carol",
+        "lastName": "Williams",
+        "email": "carol.williams@example.com",
+        "message": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      {
+        "id": 5,
+        "firstName": "David",
+        "lastName": "Brown",
+        "email": "david.brown@example.com",
+        "message": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "id": 6,
+        "firstName": "Ella",
+        "lastName": "Davis",
+        "email": "ella.davis@example.com",
+        "message": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+      },
+      {
+        "id": 7,
+        "firstName": "Frank",
+        "lastName": "Jones",
+        "email": "frank.jones@example.com",
+        "message": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores."
+      },
+      {
+        "id": 8,
+        "firstName": "Grace",
+        "lastName": "Miller",
+        "email": "grace.miller@example.com",
+        "message": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+      },
+      {
+        "id": 9,
+        "firstName": "Henry",
+        "lastName": "Martinez",
+        "email": "henry.martinez@example.com",
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "id": 10,
+        "firstName": "Isabella",
+        "lastName": "Anderson",
+        "email": "isabella.anderson@example.com",
+        "message": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam."
+      }
+    ]
+    ,
+    "login": [
+      {
+        "id": 1,
+        "firstName": "Grace",
+        "lastName": "Miller",
+        "email": "grace.miller@example.com",
+        "message": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+      },
+      {
+        "id": 2,
+        "firstName": "Henry",
+        "lastName": "Martinez",
+        "email": "henry.martinez@example.com",
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "id": 3,
+        "firstName": "Isabella",
+        "lastName": "Anderson",
+        "email": "isabella.anderson@example.com",
+        "message": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam."
+      },
+      {
+        "id": 4,
+        "firstName": "Carol",
+        "lastName": "Williams",
+        "email": "carol.williams@example.com",
+        "message": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      {
+        "id": 5,
+        "firstName": "David",
+        "lastName": "Brown",
+        "email": "david.brown@example.com",
+        "message": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }
+    ]
+    
+  }
+  
